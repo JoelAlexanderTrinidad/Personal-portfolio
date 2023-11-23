@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Trinidad Joel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/style.css" />
+    <link rel="stylesheet" href="./card.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="icon-arrow-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Portafo<span>lio</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Inicio</a></li>
+          <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+          <li><a href="#services" class="menu-btn">Proyectos</a></li>
+          <li><a href="#about" class="menu-btn">Acerca de mí</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="icon-menu"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hola! me llamo Joel Alexander</div>
+          <div class="text-2">Trinidad</div>
+          <div class="text-3">Soy <span class="typing"></span></div>
+          <!-- <a href="#">Contact me!</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="title">Habilidades</h2>
+          <div class="skill-section">
+            <div class="experiences">
+              <div><b>Mis habilidades y mis experiencias</b></div>
+              <p>
+                Tengo experiencia en desarrollo web tanto en el frontend como en el backend,
+                con lenguajes débil y fuertemente tipados, como JS y Java en el lado del servidor.
+                Me gusta combinarlos con React para el front, maquetando con css puro o tailwind.
+              </p>
+            </div>
+  
+            <div class="column-right">
+              <div>
+                <h4>Backend</h4>
+                <div class="skills-back">
+                  <span class="skill-tech">Java <img class="skill-icon" src="./img/java-icon.png" alt=""></span>
+                  <span class="skill-tech">Spring boot <img class="skill-icon" src="./img/spring-icon.png" alt=""></span>
+                  <span class="skill-tech">JPA - Hibernate <img class="skill-icon" src="./img/hibernate-icon.png" alt=""></span>
+                  <span class="skill-tech">Spring security <img class="skill-icon" src="./img/spring-security-icon.png" alt=""></span>
+                </div>
+              </div>
+              <div>
+                <h4>frontend</h4>
+                <div class="skills-front">
+                 <span class="skill-tech">ReactJs <img class="skill-icon" src="./img/react-icon.png" alt=""></span>
+                 <span class="skill-tech">CSS <img class="skill-icon" src="./img/css-icon.png" alt=""></span>
+                 <span class="skill-tech">Tailwind <img class="skill-icon" src="./img/tailwind-icon.png" alt=""></span>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="title">Proyectos</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="./img/mindbank-mockup.png" alt="">
+          <h4>HOMEBANKING</h4>
+          <p>Sitio desarrollado con java, spring, jpa-hibernate, postgres. Es una app web de un homebanking donde se pueden crear cuentas, tarjetas, hacer transacciones entre las cuentas y de terceros.</p>
+          <a href="https://github.com/JoelAlexanderTrinidad/MindHubBank" target="_blank"><button>Ver en github <i class="fa-brands fa-github"></i></button></a>
+          <a href="https://mindhubbank-8dkk.onrender.com/web/views/index.html" target="_blank"><button>Ver demo</button></a>
+        </div>
+        <div class="card">
+          <img src="./img/arthub-mockup.png" alt="">
+          <h4>ARTHUB</h4>
+          <p>Desarrollado en java, java, spring, jpa-hibernate, postgres. Es un sitio de venta de sublimados, donde las personas tienen la posibilidad de elegir el tipo de producto y la ilustración, cuenta con un catálogo de artistas donde exponen sus obras y puedan ser sublimadas.</p>
+           <a href="https://github.com/JoelAlexanderTrinidad/ArtHub" target="_blank"><button>Ver en github <i class="fa-brands fa-github"></i></button></a>
+           <a href="https://arthub-an6d.onrender.com/web/index.html" target="_blank"><button>Ver demo</button></a>
+        </div>
+        <div class="card">
+          <img src="./img/finder-mockup.png" alt="">
+          <h4>FINDER HOUSER</h4>
+          <p>Es una app web desarrollada con node, express, sequelize, y mysql, el front está hecho con react. Se trata de un sitio donde podés encontrar casas en alquiler, con la posibilidad de crear publicaciones propias.</p>
+           <a href="https://github.com/JoelAlexanderTrinidad/FinderProperty" target="_blank"><button>Ver en github <i class="fa-brands fa-github"></i></button></a>
+           <a href="https://property-finder-u6yf.onrender.com/" target="_blank"><button>Ver demo</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Acerca de mí</h2>
+        <div class="about-content">
+          <div class="column right">
+            <p>
+              Actualmente estoy cursando la carrera de técnico en desarrollo de software. He tenido la oportunidad de cursar 1 año en análisis de sistemas donde forjé las bases de la programación, pero por cuestiones personales no continué.
+              Me especialicé en el desarrollo web, hice dos bootcamps fullstack tanto con js en el lado del servidor como con java. Sé manejar vue, pero me especialicé en react. Sin dar más vueltas estoy emocionado por formar parte de un equipo de desarrollo y crecer profesionalmente.
+            </p>
+            <a href="./CV-Java-fullstack.pdf" target="_blank">Descargar CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- 
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class=" ">
+            <div class="text">Get in Touch</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              voluptatum cumque veniam obcaecati recusandae sed, fugiat modi
+              eius minus voluptate.
+            </p>
+            <div class="icons">
+              <div class="row">
+                <i class="icon-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Alan Senderovich</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="icon-location"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Bs.As. Argentina</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="icon-envelop"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">abc@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" ">
+            <div class="text">Message me</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Describe project.."
+                ></textarea>
+              </div>
+              <div class="button-area">
+                <button type="submit">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer>
+      <span>Email: joelalexandertrinidad@gmail.com</span>
+      <span><a href="https://www.linkedin.com/in/joel-trinidad/">VER Linkedin</a></span>
+      <span><a href="https://github.com/JoelAlexanderTrinidad">VER GitHub</a></span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f137d8c77f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
