@@ -28,14 +28,27 @@
 .card i {
     margin-left: .5rem;
 }
-
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.section-videos p {
+    width: 90%;
+    margin: 2rem auto;
+    font-family: "Poppins", sans-serif;
+}
 @media (min-width: 768px) {
-    .cards-container {
+    .cards-container, .videos {
         flex-direction: row;
         flex-wrap: wrap;
     }
     .card {
         width: 18rem;
+    }
+    .videos {
+        justify-content: center;
     }
 }
 @media (min-width: 1024px) {
@@ -56,6 +69,10 @@
     }
     button {
         cursor: pointer;
+    }
+    .videos iframe {
+        width: 38rem;
+        height: 20rem;
     }
 }   
 
