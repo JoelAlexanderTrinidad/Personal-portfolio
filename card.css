@@ -39,6 +39,17 @@
     margin: 2rem auto;
     font-family: "Poppins", sans-serif;
 }
+.to-consider {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(155, 12, 12);
+}
+.to-consider i {
+    color: #ab7d10;
+    padding-left: 1rem;
+}
 @media (min-width: 768px) {
     .cards-container, .videos {
         flex-direction: row;
