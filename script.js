@@ -22,7 +22,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing", {
-    strings: ["desarrollador web fullstack", "desarrollador Java"],
+    strings: ["Desarrollador web Full stack", "desarrollador NodeJs/Java"],
     typeSpeed: 80,
     backSpeed: 50,
     loop: true,
